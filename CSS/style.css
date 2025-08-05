@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-::selection{
+::selection {
   background-color: #d8be68;
 }
 
@@ -40,7 +40,7 @@ section {
   color: #d8be68;
 }
 
-.nav-item > a.active{
+.nav-item>a.active {
   border-bottom: 3px solid #d8be68;
 }
 
@@ -501,7 +501,7 @@ section {
   transform: scale(1.05);
 }
 
-.certificate-content h2{
+.certificate-content h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: #0b2535;
@@ -512,14 +512,16 @@ section {
   max-height: 200px;
 }
 
-.certi-img, .contact-details {
+.certi-img,
+.contact-details {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 12px;
   padding: 20px;
   background: white;
 }
 
-.certi-img:hover , .contact-details:hover {
+.certi-img:hover,
+.contact-details:hover {
   box-shadow: 0 8px 25px rgba(216, 190, 104, 0.6);
   transform: scale(1.1);
 }
@@ -536,22 +538,25 @@ section {
   font-family: "Exo", sans-serif;
 }
 
-.contact-section{
+.contact-section {
   background-color: #0b2535;
-  
+
 }
-.contact-section span{
+
+.contact-section span {
   font-family: "Titillium Web", sans-serif;
 }
-.contact-details , .contact-details a{
+
+.contact-details,
+.contact-details a {
   color: #0b2535;
 }
 
-.footer-section{
+.footer-section {
   color: #0b2535;
 }
 
-.footer-section p{
+.footer-section p {
   font-family: "Titillium Web", sans-serif;
   margin-top: 10px;
 }
@@ -576,12 +581,19 @@ section {
   }
 }
 
-
-
-
-
-
 @media (max-width: 767px) {
+  .navbar-nav {
+    background-color: white;
+    z-index: 1000;
+  }
+  .nav-item{
+    padding: 0 30px;
+  }
+  .home-page .text-zone {
+    left: 5%;
+    top: 40%;
+    width: 90%;
+  }
   .education-section h2 {
     font-size: 2rem;
   }
